@@ -2137,6 +2137,16 @@ namespace DecisionDiagrams
         }
 
         /// <summary>
+        /// Counts the given nodes that are used to represent the bdd
+        /// </summary>
+        /// <param name="startIndex">Index of the start of the BDD</param>
+        /// <returns>The amount of nodes used to represent the BDD</returns>
+        public long CountNodes(DDIndex startIndex)
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
         /// Basic sanity check for nodes provided by the user.
         /// </summary>
         /// <param name="managerId">The manager id.</param>
